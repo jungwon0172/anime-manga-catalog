@@ -1,4 +1,1 @@
-# Google AdSense 발행자 확인용 파일입니다.
-# 애드센스 승인 후 발급받는 발행자 ID로 아래 값을 교체한 뒤,
-# 사이트 루트 경로(https://your-domain.com/ads.txt)에 그대로 업로드하세요.
-google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
+google.com, pub-2557338953436433, DIRECT, f08c47fec0942fa0
