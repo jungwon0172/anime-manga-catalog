@@ -128,6 +128,9 @@
     color:var(--vermilion); text-transform:uppercase; margin-bottom:5px;
   }
   .criteria .v{ font-size:13px; color:var(--ink-soft); line-height:1.55; }
+  .linknote{
+    font-size:12px; color:var(--ink-soft); margin:0 0 24px; font-family:'Noto Serif KR',serif;
+  }
 
   /* ---- filter tabs ---- */
   .filters{
@@ -222,6 +225,14 @@
   .card p.blurb{
     font-size:12.8px; line-height:1.65; color:var(--ink-soft); margin:0;
   }
+  .card .links{
+    display:flex; gap:14px; margin-top:10px;
+  }
+  .card .links a{
+    font-family:'JetBrains Mono',monospace; font-size:10px; letter-spacing:.04em;
+    color:var(--indigo); text-decoration:none; border-bottom:1px dotted var(--indigo-soft);
+  }
+  .card .links a:hover{color:var(--vermilion); border-color:var(--vermilion);}
   .card .footer{
     margin-top:10px; padding-top:8px; border-top:1px dashed var(--line-strong);
     font-family:'JetBrains Mono',monospace; font-size:9.5px; color:var(--line-strong);
@@ -293,7 +304,13 @@
       <div class="k">기준 시점</div>
       <div class="v">2026년 7월 기준 스냅샷 · 별도 자동 갱신 없음</div>
     </div>
+    <div>
+      <div class="k">어디서 보나요?</div>
+      <div class="v">각 카드의 <b>"어디서 보나 ↗"</b> 링크를 누르면 JustWatch에서 국내 넷플릭스·라프텔·왓챠·크런치롤·웨이브 등 실시간 서비스처를 확인할 수 있어요. 만화는 카카오페이지·리디·정발 단행본을 함께 찾아보세요.</div>
+    </div>
   </div>
+
+  <p class="linknote">각 카드의 <b>MyAnimeList ↗</b> 링크는 해당 작품의 평점·리뷰·화수 정보를 볼 수 있는 MAL 검색 결과로 연결돼요.</p>
 
   <div class="filters">
     <span class="label">매체</span>
@@ -344,17 +361,17 @@
 <script>
 const DATA = [
   // ---- 클래식 · 완결 ----
-  {t:"강철의 연금술사: 브라더후드", o:"Fullmetal Alchemist: Brotherhood", media:"anime", status:"completed", era:"classic", year:2009, rating:9.1, genre:"다크판타지·모험", blurb:"연금술로 잃은 것을 되찾으려는 형제의 여정을 그린 완결형 서사의 정석."},
+  {t:"강철의 연금술사: 브라더후드", o:"Fullmetal Alchemist: Brotherhood", media:"anime", status:"completed", era:"classic", year:2009, rating:9.1, malUrl:"https://myanimelist.net/anime/5114/Fullmetal_Alchemist__Brotherhood", genre:"다크판타지·모험", blurb:"연금술로 잃은 것을 되찾으려는 형제의 여정을 그린 완결형 서사의 정석."},
   {t:"강철의 연금술사", o:"Fullmetal Alchemist (원작 만화)", media:"manga", status:"completed", era:"classic", year:2010, rating:9.0, genre:"다크판타지", blurb:"애니의 원작 만화. 복선 회수와 세계관 완성도가 특히 뛰어나다는 평."},
   {t:"진격의 거인: 파이널 시즌", o:"Shingeki no Kyojin: The Final Season", media:"anime", status:"completed", era:"classic", year:2023, rating:9.0, genre:"미스터리·전쟁", blurb:"거인과 인류의 대립 이면에 숨은 정치·전쟁 서사로 완결까지 화제성을 유지."},
-  {t:"몬스터", o:"Monster", media:"anime", status:"completed", era:"classic", year:2004, rating:8.9, genre:"스릴러·심리", blurb:"천재 외과의와 살인마를 둘러싼 우라사와 나오키의 치밀한 심리 스릴러."},
+  {t:"몬스터", o:"Monster", media:"anime", status:"completed", era:"classic", year:2004, rating:8.9, malUrl:"https://myanimelist.net/anime/19/Monster", genre:"스릴러·심리", blurb:"천재 외과의와 살인마를 둘러싼 우라사와 나오키의 치밀한 심리 스릴러."},
   {t:"슬램덩크", o:"Slam Dunk", media:"manga", status:"completed", era:"classic", year:1996, rating:8.9, genre:"스포츠·청춘", blurb:"농구 만화의 기준점. 성장과 팀워크를 다룬 클래식 스포츠물."},
-  {t:"카우보이 비밥", o:"Cowboy Bebop", media:"anime", status:"completed", era:"classic", year:1998, rating:8.75, genre:"SF·느와르", blurb:"재즈풍 사운드와 옴니버스식 구성이 인상적인 우주 현상금 사냥꾼 이야기."},
+  {t:"카우보이 비밥", o:"Cowboy Bebop", media:"anime", status:"completed", era:"classic", year:1998, rating:8.75, malUrl:"https://myanimelist.net/anime/1/Cowboy_Bebop", genre:"SF·느와르", blurb:"재즈풍 사운드와 옴니버스식 구성이 인상적인 우주 현상금 사냥꾼 이야기."},
   {t:"은수저", o:"Gin no Saji", media:"manga", status:"completed", era:"classic", year:2013, rating:8.7, genre:"일상·성장", blurb:"농업고등학교를 배경으로 한 성장기. 잔잔하지만 오래 곱씹게 되는 만화."},
   {t:"던전밥", o:"Dungeon Meshi", media:"manga", status:"completed", era:"classic", year:2023, rating:8.7, genre:"판타지·요리", blurb:"던전 몬스터를 요리해 먹는다는 발상에서 출발한 독창적 완결작."},
-  {t:"신세기 에반게리온", o:"Neon Genesis Evangelion", media:"anime", status:"completed", era:"classic", year:1996, rating:8.5, genre:"메카·심리", blurb:"로봇 애니의 틀을 심리 드라마로 비튼 상징적 작품."},
+  {t:"신세기 에반게리온", o:"Neon Genesis Evangelion", media:"anime", status:"completed", era:"classic", year:1996, rating:8.5, malUrl:"https://myanimelist.net/anime/30/Neon_Genesis_Evangelion", genre:"메카·심리", blurb:"로봇 애니의 틀을 심리 드라마로 비튼 상징적 작품."},
   {t:"헌터×헌터", o:"Hunter x Hunter", media:"manga", status:"ongoing", era:"classic", year:1998, rating:9.0, genre:"모험·배틀", blurb:"불규칙 연재로 유명하지만, 세계관과 능력 체계의 밀도로 손꼽히는 작품."},
-  {t:"원피스", o:"One Piece", media:"anime", status:"ongoing", era:"classic", year:1999, rating:8.73, genre:"모험·해적", blurb:"25년 넘게 이어지는 최장수 인기작. 한 편의 대하 모험담."},
+  {t:"원피스", o:"One Piece", media:"anime", status:"ongoing", era:"classic", year:1999, rating:8.73, malUrl:"https://myanimelist.net/anime/21/One_Piece", genre:"모험·해적", blurb:"25년 넘게 이어지는 최장수 인기작. 한 편의 대하 모험담."},
   {t:"원피스", o:"One Piece (원작 만화)", media:"manga", status:"ongoing", era:"classic", year:1997, rating:8.8, genre:"모험·해적", blurb:"애니의 원작. 복선 회수 속도와 세계관 확장으로 꾸준히 화제."},
 
   // ---- 현재 방영·연재 (2024~2026) ----
@@ -378,17 +395,17 @@ const DATA = [
   {t:"단다단 2기", o:"Dandadan 2nd Season", media:"anime", status:"ongoing", era:"current", year:2025, rating:8.41, genre:"오컬트·코미디", blurb:"UFO와 요괴를 넘나드는 하이텐션 오컬트 코미디, 원작 만화 연재중."},
 
   // ---- 클래식 추가분 ----
-  {t:"나루토", o:"Naruto", media:"anime", status:"completed", era:"classic", year:2002, rating:7.9, genre:"액션·모험", blurb:"닌자 소년의 성장을 그린 국민적 인기 시리즈."},
+  {t:"나루토", o:"Naruto", media:"anime", status:"completed", era:"classic", year:2002, rating:7.9, malUrl:"https://myanimelist.net/anime/20/Naruto", genre:"액션·모험", blurb:"닌자 소년의 성장을 그린 국민적 인기 시리즈."},
   {t:"나루토", o:"Naruto (원작 만화)", media:"manga", status:"completed", era:"classic", year:1999, rating:8.0, genre:"액션·모험", blurb:"애니의 원작. 세계관과 캐릭터 서사가 방대하다."},
   {t:"블리치", o:"Bleach", media:"anime", status:"completed", era:"classic", year:2004, rating:7.8, genre:"액션·초자연", blurb:"사신이 된 고등학생의 이야기, 2022년 신편으로 완결까지 재조명."},
   {t:"블리치", o:"Bleach (원작 만화)", media:"manga", status:"completed", era:"classic", year:2001, rating:7.9, genre:"액션·초자연", blurb:"세련된 액션 연출로 오래 사랑받은 소년만화."},
-  {t:"데스노트", o:"Death Note", media:"anime", status:"completed", era:"classic", year:2006, rating:8.6, genre:"스릴러·심리", blurb:"천재들의 두뇌 싸움을 그린 심리 스릴러의 대표작."},
+  {t:"데스노트", o:"Death Note", media:"anime", status:"completed", era:"classic", year:2006, rating:8.6, malUrl:"https://myanimelist.net/anime/1535/Death_Note", genre:"스릴러·심리", blurb:"천재들의 두뇌 싸움을 그린 심리 스릴러의 대표작."},
   {t:"데스노트", o:"Death Note (원작 만화)", media:"manga", status:"completed", era:"classic", year:2006, rating:8.6, genre:"스릴러·심리", blurb:"애니의 원작. 치밀한 심리전 전개로 유명하다."},
-  {t:"코드 기아스: 반역의 를르슈", o:"Code Geass", media:"anime", status:"completed", era:"classic", year:2006, rating:8.7, genre:"메카·정치극", blurb:"제국에 맞서는 두뇌파 주인공의 정치·전쟁 서사."},
-  {t:"귀멸의 칼날", o:"Kimetsu no Yaiba", media:"anime", status:"completed", era:"classic", year:2019, rating:8.5, genre:"액션·다크판타지", blurb:"화려한 작화로 화제를 모은 도깨비 사냥 이야기."},
+  {t:"코드 기아스: 반역의 를르슈", o:"Code Geass", media:"anime", status:"completed", era:"classic", year:2006, rating:8.7, malUrl:"https://myanimelist.net/anime/1575/Code_Geass_Hangyaku_no_Lelouch", genre:"메카·정치극", blurb:"제국에 맞서는 두뇌파 주인공의 정치·전쟁 서사."},
+  {t:"귀멸의 칼날", o:"Kimetsu no Yaiba", media:"anime", status:"completed", era:"classic", year:2019, rating:8.5, malUrl:"https://myanimelist.net/anime/38000/Kimetsu_no_Yaiba", genre:"액션·다크판타지", blurb:"화려한 작화로 화제를 모은 도깨비 사냥 이야기."},
   {t:"귀멸의 칼날", o:"Kimetsu no Yaiba (원작 만화)", media:"manga", status:"completed", era:"classic", year:2020, rating:8.5, genre:"액션·다크판타지", blurb:"애니의 원작. 완결까지 꾸준한 인기를 유지했다."},
   {t:"주술회전", o:"Jujutsu Kaisen (원작 만화)", media:"manga", status:"completed", era:"classic", year:2024, rating:8.5, genre:"배틀·오컬트", blurb:"2024년 완결된 원작 만화. 저주와 주술사의 세계관이 촘촘하다."},
-  {t:"스파이 패밀리", o:"Spy x Family", media:"anime", status:"ongoing", era:"classic", year:2022, rating:8.5, genre:"코미디·액션", blurb:"위장 가족이 된 스파이·암살자·텔레파스의 유쾌한 동거극."},
+  {t:"스파이 패밀리", o:"Spy x Family", media:"anime", status:"ongoing", era:"classic", year:2022, rating:8.5, malUrl:"https://myanimelist.net/anime/50265/Spy_x_Family", genre:"코미디·액션", blurb:"위장 가족이 된 스파이·암살자·텔레파스의 유쾌한 동거극."},
   {t:"스파이 패밀리", o:"Spy x Family (원작 만화)", media:"manga", status:"ongoing", era:"classic", year:2019, rating:8.6, genre:"코미디·액션", blurb:"애니의 원작. 가족 코미디와 첩보물의 균형이 돋보인다."},
   {t:"도쿄 구울", o:"Tokyo Ghoul", media:"anime", status:"completed", era:"classic", year:2014, rating:7.8, genre:"다크판타지·호러", blurb:"인간과 구울 사이에서 정체성을 고민하는 주인공의 이야기."},
   {t:"도쿄 구울", o:"Tokyo Ghoul (원작 만화)", media:"manga", status:"completed", era:"classic", year:2014, rating:7.8, genre:"다크판타지·호러", blurb:"애니보다 원작 만화의 완성도가 높다는 평이 많다."},
@@ -401,15 +418,15 @@ const DATA = [
   {t:"원령공주", o:"Mononoke Hime", media:"anime", status:"completed", era:"classic", year:1997, rating:8.7, genre:"판타지·액션", blurb:"인간과 자연의 대립을 그린 지브리의 대표 서사시."},
   {t:"바람계곡의 나우시카", o:"Kaze no Tani no Nausicaa", media:"anime", status:"completed", era:"classic", year:1984, rating:8.4, genre:"판타지·SF", blurb:"멸망 후 세계에서 공존을 모색하는 소녀의 이야기."},
   {t:"늑대아이", o:"Ookami Kodomo no Ame to Yuki", media:"anime", status:"completed", era:"classic", year:2012, rating:8.5, genre:"가족·판타지", blurb:"늑대인간의 아이를 홀로 키우는 어머니의 성장기."},
-  {t:"하이큐!!", o:"Haikyuu!!", media:"anime", status:"completed", era:"classic", year:2014, rating:8.5, genre:"스포츠·청춘", blurb:"배구를 소재로 한 팀워크·성장 스포츠물의 대표작."},
+  {t:"하이큐!!", o:"Haikyuu!!", media:"anime", status:"completed", era:"classic", year:2014, rating:8.5, malUrl:"https://myanimelist.net/anime/20583/Haikyuu", genre:"스포츠·청춘", blurb:"배구를 소재로 한 팀워크·성장 스포츠물의 대표작."},
   {t:"유리! on ICE", o:"Yuri!!! on Ice", media:"anime", status:"completed", era:"classic", year:2016, rating:7.9, genre:"스포츠·드라마", blurb:"피겨스케이팅 선수의 재기와 성장을 그린 작품."},
   {t:"노 게임 노 라이프", o:"No Game No Life", media:"anime", status:"completed", era:"classic", year:2014, rating:7.7, genre:"판타지·코미디", blurb:"게임으로 모든 것이 결정되는 이세계의 남매 이야기."},
   {t:"이 멋진 세계에 축복을!", o:"Konosuba", media:"anime", status:"ongoing", era:"classic", year:2016, rating:8.1, genre:"판타지·코미디", blurb:"이세계 전생 클리셰를 코미디로 비튼 인기작."},
   {t:"오버로드", o:"Overlord", media:"anime", status:"ongoing", era:"classic", year:2015, rating:7.9, genre:"판타지·이세계", blurb:"게임 캐릭터로 이세계에 남겨진 절대자의 이야기."},
   {t:"Re:제로부터 시작하는 이세계 생활", o:"Re:Zero", media:"anime", status:"ongoing", era:"classic", year:2016, rating:8.3, genre:"판타지·이세계", blurb:"죽음을 반복하며 진실에 다가가는 이세계 서바이벌."},
-  {t:"원펀맨", o:"One Punch Man", media:"anime", status:"ongoing", era:"classic", year:2015, rating:8.5, genre:"배틀·코미디", blurb:"한 방에 모든 적을 쓰러뜨리는 히어로의 권태와 액션."},
+  {t:"원펀맨", o:"One Punch Man", media:"anime", status:"ongoing", era:"classic", year:2015, rating:8.5, malUrl:"https://myanimelist.net/anime/30276/One_Punch_Man", genre:"배틀·코미디", blurb:"한 방에 모든 적을 쓰러뜨리는 히어로의 권태와 액션."},
   {t:"원펀맨", o:"One Punch Man (원작 만화)", media:"manga", status:"ongoing", era:"classic", year:2012, rating:8.7, genre:"배틀·코미디", blurb:"압도적인 작화로 유명한 리메이크 연재본."},
-  {t:"모브사이코 100", o:"Mob Psycho 100", media:"anime", status:"completed", era:"classic", year:2016, rating:8.6, genre:"초능력·코미디", blurb:"초능력 소년의 성장을 다룬 독창적 연출의 작품."},
+  {t:"모브사이코 100", o:"Mob Psycho 100", media:"anime", status:"completed", era:"classic", year:2016, rating:8.6, malUrl:"https://myanimelist.net/anime/32182/Mob_Psycho_100", genre:"초능력·코미디", blurb:"초능력 소년의 성장을 다룬 독창적 연출의 작품."},
   {t:"모브사이코 100", o:"Mob Psycho 100 (원작 만화)", media:"manga", status:"completed", era:"classic", year:2012, rating:8.6, genre:"초능력·코미디", blurb:"원펀맨 작가 ONE의 또 다른 대표작."},
   {t:"도쿄 리벤저스", o:"Tokyo Revengers", media:"anime", status:"completed", era:"classic", year:2021, rating:7.7, genre:"드라마·타임슬립", blurb:"과거로 돌아가 친구를 구하려는 청춘 드라마."},
   {t:"약속의 네버랜드", o:"Yakusoku no Neverland", media:"anime", status:"completed", era:"classic", year:2019, rating:8.6, genre:"스릴러·서바이벌", blurb:"평화로운 고아원의 숨겨진 비밀을 파헤치는 심리 스릴러 (1기 기준)."},
@@ -423,8 +440,8 @@ const DATA = [
   {t:"은혼", o:"Gintama", media:"anime", status:"ongoing", era:"classic", year:2006, rating:8.9, genre:"코미디·액션", blurb:"패러디 개그와 진지한 서사를 오가는 롱런 코미디물."},
   {t:"페어리테일", o:"Fairy Tail", media:"anime", status:"completed", era:"classic", year:2009, rating:7.6, genre:"판타지·모험", blurb:"마법사 길드를 배경으로 한 동료애 중심의 모험담."},
   {t:"블랙 클로버", o:"Black Clover", media:"anime", status:"completed", era:"classic", year:2017, rating:8.1, genre:"판타지·배틀", blurb:"마법 없는 소년이 최강 마법사를 꿈꾸는 노력형 배틀물."},
-  {t:"나의 히어로 아카데미아", o:"Boku no Hero Academia", media:"anime", status:"ongoing", era:"classic", year:2016, rating:7.9, genre:"배틀·히어로", blurb:"개성(초능력) 사회를 배경으로 한 히어로 학원물."},
-  {t:"소드 아트 온라인", o:"Sword Art Online", media:"anime", status:"ongoing", era:"classic", year:2012, rating:7.2, genre:"판타지·게임", blurb:"가상현실 게임에 갇힌 플레이어들의 생존기."},
+  {t:"나의 히어로 아카데미아", o:"Boku no Hero Academia", media:"anime", status:"ongoing", era:"classic", year:2016, rating:7.9, malUrl:"https://myanimelist.net/anime/31964/Boku_no_Hero_Academia", genre:"배틀·히어로", blurb:"개성(초능력) 사회를 배경으로 한 히어로 학원물."},
+  {t:"소드 아트 온라인", o:"Sword Art Online", media:"anime", status:"ongoing", era:"classic", year:2012, rating:7.2, malUrl:"https://myanimelist.net/anime/11757/Sword_Art_Online", genre:"판타지·게임", blurb:"가상현실 게임에 갇힌 플레이어들의 생존기."},
   {t:"노라가미", o:"Noragami", media:"anime", status:"completed", era:"classic", year:2014, rating:7.9, genre:"초자연·액션", blurb:"무명 신과 인간 소녀가 얽히는 초자연 액션물."},
   {t:"죠죠의 기묘한 모험", o:"JoJo no Kimyou na Bouken", media:"anime", status:"ongoing", era:"classic", year:2012, rating:8.2, genre:"배틀·초자연", blurb:"세대를 이어가는 독특한 연출의 배틀 액션 시리즈."},
   {t:"죠죠의 기묘한 모험", o:"JoJo no Kimyou na Bouken (원작 만화)", media:"manga", status:"ongoing", era:"classic", year:1987, rating:8.6, genre:"배틀·초자연", blurb:"장기 연재 중인 원작. 시대마다 화풍과 서사가 크게 달라진다."},
@@ -439,7 +456,7 @@ const DATA = [
   {t:"늑대와 향신료", o:"Ookami to Koushinryou", media:"anime", status:"completed", era:"classic", year:2008, rating:7.7, genre:"판타지·경제", blurb:"늑대신과 상인의 여정을 다룬 경제·교역 판타지."},
   {t:"클라나드", o:"Clannad", media:"anime", status:"completed", era:"classic", year:2007, rating:8.0, genre:"드라마·로맨스", blurb:"가족과 인연을 중심에 둔 정통 감동 드라마."},
   {t:"Angel Beats!", o:"Angel Beats!", media:"anime", status:"completed", era:"classic", year:2010, rating:8.1, genre:"드라마·판타지", blurb:"사후 세계를 배경으로 한 청춘 군상극."},
-  {t:"슈타인즈 게이트", o:"Steins;Gate", media:"anime", status:"completed", era:"classic", year:2011, rating:9.07, genre:"SF·스릴러", blurb:"타임머신을 소재로 한 SF 스릴러의 정점으로 꼽히는 작품."},
+  {t:"슈타인즈 게이트", o:"Steins;Gate", media:"anime", status:"completed", era:"classic", year:2011, rating:9.07, malUrl:"https://myanimelist.net/anime/9253/Steins_Gate", genre:"SF·스릴러", blurb:"타임머신을 소재로 한 SF 스릴러의 정점으로 꼽히는 작품."},
   {t:"베르세르크", o:"Berserk (원작 만화)", media:"manga", status:"ongoing", era:"classic", year:1989, rating:9.2, genre:"다크판타지", blurb:"압도적 작화와 세계관으로 다크판타지 장르의 기준이 된 작품."},
   {t:"도로헤도로", o:"Dorohedoro", media:"anime", status:"completed", era:"classic", year:2020, rating:8.0, genre:"다크판타지·호러", blurb:"마법사와 도마뱀 머리 남자가 얽힌 그로테스크한 세계관."},
   {t:"사이버펑크: 엣지러너", o:"Cyberpunk: Edgerunners", media:"anime", status:"completed", era:"classic", year:2022, rating:8.6, genre:"SF·사이버펑크", blurb:"게임 '사이버펑크 2077' 세계관을 다룬 넷플릭스 오리지널 애니."},
@@ -487,6 +504,9 @@ function render(){
       list.forEach(d=>{
         const card = document.createElement("div");
         card.className = "card";
+        const malBase = d.media==="anime" ? "https://myanimelist.net/anime.php" : "https://myanimelist.net/manga.php";
+        const malUrl = d.malUrl || `${malBase}?q=${encodeURIComponent(d.o)}`;
+        const jwUrl = `https://www.justwatch.com/kr/search?q=${encodeURIComponent(d.t)}`;
         card.innerHTML = `
           <div class="top">
             <span class="media-tag ${d.media}">${d.media==="anime"?"애니":"만화"}</span>
@@ -500,6 +520,10 @@ function render(){
             <span>${d.genre}</span>
           </div>
           <p class="blurb">${d.blurb}</p>
+          <div class="links">
+            <a href="${malUrl}" target="_blank" rel="noopener">MyAnimeList ↗</a>
+            <a href="${jwUrl}" target="_blank" rel="noopener">어디서 보나 ↗</a>
+          </div>
           <div class="footer"><span>IDX·${String(DATA.indexOf(d)+1).padStart(3,"0")}</span><span>${d.era==="classic"?"CLASSIC":"CURRENT"}</span></div>
         `;
         grid.appendChild(card);
