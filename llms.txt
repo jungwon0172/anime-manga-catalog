@@ -1,0 +1,149 @@
+# 오늘의 명작
+
+> 옛날 명작부터 2026년 방영·연재작까지, 애니메이션 94건과 만화 28건을 평점 기준으로 정리한 한국어 추천 색인. 기준일 2026-10-24.
+
+## 사이트 안내
+- 평점 기준: MyAnimeList 이용자 평점(10점 만점) 스냅샷. 최신작은 점수 변동이 커서 점수 대신 MAL 링크로 안내.
+- 구분: 클래식(2023년 이전) / 현재(2024~2026) / 최신(2026 가을 신작·올해 화제작)
+- 시청처는 각 작품의 JustWatch 한국 검색 링크로 안내
+
+## 페이지
+- [홈 — 전체 카탈로그와 FAQ](https://anime-manga-catalog-eosin.vercel.app/)
+- [사이트 소개](https://anime-manga-catalog-eosin.vercel.app/about.html)
+- [개인정보처리방침](https://anime-manga-catalog-eosin.vercel.app/privacy.html)
+
+## 평점 상위 작품
+- 베르세르크 (Berserk (원작 만화)) | 만화 | 1989 | 연재/방영중 | MAL 9.2 | 다크판타지
+- 강철의 연금술사: 브라더후드 (Fullmetal Alchemist: Brotherhood) | 애니 | 2009 | 완결 | MAL 9.1 | 다크판타지·모험
+- 은하영웅전설 (Ginga Eiyuu Densetsu) | 애니 | 1988 | 완결 | MAL 9.1 | SF·전쟁
+- 슈타인즈 게이트 (Steins;Gate) | 애니 | 2011 | 완결 | MAL 9.07 | SF·스릴러
+- 강철의 연금술사 (Fullmetal Alchemist (원작 만화)) | 만화 | 2010 | 완결 | MAL 9 | 다크판타지
+- 진격의 거인: 파이널 시즌 (Shingeki no Kyojin: The Final Season) | 애니 | 2023 | 완결 | MAL 9 | 미스터리·전쟁
+- 헌터×헌터 (Hunter x Hunter) | 만화 | 1998 | 연재/방영중 | MAL 9 | 모험·배틀
+- 약사의 혼잣말 2기 (Kusuriya no Hitorigoto S2) | 애니 | 2025 | 완결 | MAL 8.91 | 미스터리·궁중극
+- 몬스터 (Monster) | 애니 | 2004 | 완결 | MAL 8.9 | 스릴러·심리
+- 슬램덩크 (Slam Dunk) | 만화 | 1996 | 완결 | MAL 8.9 | 스포츠·청춘
+
+## 전체 카탈로그
+- 강철의 연금술사: 브라더후드 (Fullmetal Alchemist: Brotherhood) | 애니 | 2009 | 완결 | MAL 9.1 | 다크판타지·모험
+- 강철의 연금술사 (Fullmetal Alchemist (원작 만화)) | 만화 | 2010 | 완결 | MAL 9 | 다크판타지
+- 진격의 거인: 파이널 시즌 (Shingeki no Kyojin: The Final Season) | 애니 | 2023 | 완결 | MAL 9 | 미스터리·전쟁
+- 몬스터 (Monster) | 애니 | 2004 | 완결 | MAL 8.9 | 스릴러·심리
+- 슬램덩크 (Slam Dunk) | 만화 | 1996 | 완결 | MAL 8.9 | 스포츠·청춘
+- 카우보이 비밥 (Cowboy Bebop) | 애니 | 1998 | 완결 | MAL 8.75 | SF·느와르
+- 은수저 (Gin no Saji) | 만화 | 2013 | 완결 | MAL 8.7 | 일상·성장
+- 던전밥 (Dungeon Meshi) | 만화 | 2023 | 완결 | MAL 8.7 | 판타지·요리
+- 신세기 에반게리온 (Neon Genesis Evangelion) | 애니 | 1996 | 완결 | MAL 8.5 | 메카·심리
+- 헌터×헌터 (Hunter x Hunter) | 만화 | 1998 | 연재/방영중 | MAL 9 | 모험·배틀
+- 원피스 (One Piece) | 애니 | 1999 | 연재/방영중 | MAL 8.73 | 모험·해적
+- 원피스 (One Piece (원작 만화)) | 만화 | 1997 | 연재/방영중 | MAL 8.8 | 모험·해적
+- 장송의 프리렌 2기 (Sousou no Frieren S2) | 애니 | 2026 | 완결 | MAL 8.85 | 판타지·잔잔물
+- 약사의 혼잣말 2기 (Kusuriya no Hitorigoto S2) | 애니 | 2025 | 완결 | MAL 8.91 | 미스터리·궁중극
+- 나의 히어로 아카데미아: 파이널 시즌 (Boku no Hero Academia: Final Season) | 애니 | 2025 | 완결 | MAL 8.72 | 배틀·히어로
+- 이국일기 (Ikoku Nikki) | 애니 | 2026 | 연재/방영중 | MAL 8.71 | 드라마·성장
+- 킹덤 6기 (Kingdom 6th Season) | 애니 | 2025 | 연재/방영중 | MAL 8.88 | 역사·전쟁
+- [최애의 아이] 3기 ([Oshi no Ko] 3rd Season) | 애니 | 2026 | 연재/방영중 | MAL 8.6 | 연예계·미스터리
+- 지옥락 2기 (Jigokuraku 2nd Season) | 애니 | 2026 | 연재/방영중 | MAL 8.24 | 액션·판타지
+- 주술회전 3기: 사멸회유 (Jujutsu Kaisen S3: Shimetsu Kaiyuu) | 애니 | 2026 | 연재/방영중 | MAL 8.58 | 배틀·오컬트
+- 메달리스트 2기 (Medalist 2nd Season) | 애니 | 2026 | 연재/방영중 | MAL 8.48 | 스포츠·성장
+- 향기로운 꽃은 늠름하게 핀다 (Kaoru Hana wa Rin to Saku) | 애니 | 2025 | 연재/방영중 | MAL 8.53 | 로맨스·드라마
+- 체인소맨: 레제 편 (Chainsaw Man - Reze Arc) | 애니 | 2025 | 완결 | MAL 8.6 | 다크판타지·액션
+- 체인소맨 (연재) (Chainsaw Man (연재 만화)) | 만화 | 2024 | 연재/방영중 | MAL 8.7 | 다크판타지·액션
+- 향기로운 꽃은 늠름하게 핀다 (원작 만화) (Kaoru Hana wa Rin to Saku (manga)) | 만화 | 2021 | 연재/방영중 | MAL 8.4 | 로맨스
+- 약사의 혼잣말 (원작 만화) (Kusuriya no Hitorigoto (manga)) | 만화 | 2017 | 연재/방영중 | MAL 8.6 | 미스터리
+- 가치아쿠타 (Gachiakuta) | 애니 | 2025 | 연재/방영중 | MAL 8.22 | 액션·판타지
+- 그 비스크 돌은 사랑을 한다 2기 (Sono Bisque Doll wa Koi wo Suru S2) | 애니 | 2025 | 완결 | MAL 8.19 | 로맨스·취미
+- Dr. STONE: 사이언스 퓨처 (Dr. Stone: Science Future) | 애니 | 2025 | 완결 | MAL 8.25 | 모험·SF
+- 단다단 2기 (Dandadan 2nd Season) | 애니 | 2025 | 연재/방영중 | MAL 8.41 | 오컬트·코미디
+- 나루토 (Naruto) | 애니 | 2002 | 완결 | MAL 7.9 | 액션·모험
+- 나루토 (Naruto (원작 만화)) | 만화 | 1999 | 완결 | MAL 8 | 액션·모험
+- 블리치 (Bleach) | 애니 | 2004 | 완결 | MAL 7.8 | 액션·초자연
+- 블리치 (Bleach (원작 만화)) | 만화 | 2001 | 완결 | MAL 7.9 | 액션·초자연
+- 데스노트 (Death Note) | 애니 | 2006 | 완결 | MAL 8.6 | 스릴러·심리
+- 데스노트 (Death Note (원작 만화)) | 만화 | 2006 | 완결 | MAL 8.6 | 스릴러·심리
+- 코드 기아스: 반역의 를르슈 (Code Geass) | 애니 | 2006 | 완결 | MAL 8.7 | 메카·정치극
+- 귀멸의 칼날 (Kimetsu no Yaiba) | 애니 | 2019 | 완결 | MAL 8.5 | 액션·다크판타지
+- 귀멸의 칼날 (Kimetsu no Yaiba (원작 만화)) | 만화 | 2020 | 완결 | MAL 8.5 | 액션·다크판타지
+- 주술회전 (Jujutsu Kaisen (원작 만화)) | 만화 | 2024 | 완결 | MAL 8.5 | 배틀·오컬트
+- 스파이 패밀리 (Spy x Family) | 애니 | 2022 | 연재/방영중 | MAL 8.5 | 코미디·액션
+- 스파이 패밀리 (Spy x Family (원작 만화)) | 만화 | 2019 | 연재/방영중 | MAL 8.6 | 코미디·액션
+- 도쿄 구울 (Tokyo Ghoul) | 애니 | 2014 | 완결 | MAL 7.8 | 다크판타지·호러
+- 도쿄 구울 (Tokyo Ghoul (원작 만화)) | 만화 | 2014 | 완결 | MAL 7.8 | 다크판타지·호러
+- 너의 이름은. (Kimi no Na wa.) | 애니 | 2016 | 완결 | MAL 8.8 | 로맨스·판타지
+- 날씨의 아이 (Tenki no Ko) | 애니 | 2019 | 완결 | MAL 8 | 로맨스·판타지
+- 스즈메의 문단속 (Suzume no Tojimari) | 애니 | 2022 | 완결 | MAL 8.4 | 로맨스·판타지
+- 하울의 움직이는 성 (Howl no Ugoku Shiro) | 애니 | 2004 | 완결 | MAL 8.6 | 판타지·로맨스
+- 센과 치히로의 행방불명 (Sen to Chihiro no Kamikakushi) | 애니 | 2001 | 완결 | MAL 8.8 | 판타지
+- 이웃집 토토로 (Tonari no Totoro) | 애니 | 1988 | 완결 | MAL 8.2 | 가족·판타지
+- 원령공주 (Mononoke Hime) | 애니 | 1997 | 완결 | MAL 8.7 | 판타지·액션
+- 바람계곡의 나우시카 (Kaze no Tani no Nausicaa) | 애니 | 1984 | 완결 | MAL 8.4 | 판타지·SF
+- 늑대아이 (Ookami Kodomo no Ame to Yuki) | 애니 | 2012 | 완결 | MAL 8.5 | 가족·판타지
+- 하이큐!! (Haikyuu!!) | 애니 | 2014 | 완결 | MAL 8.5 | 스포츠·청춘
+- 유리! on ICE (Yuri!!! on Ice) | 애니 | 2016 | 완결 | MAL 7.9 | 스포츠·드라마
+- 노 게임 노 라이프 (No Game No Life) | 애니 | 2014 | 완결 | MAL 7.7 | 판타지·코미디
+- 이 멋진 세계에 축복을! (Konosuba) | 애니 | 2016 | 연재/방영중 | MAL 8.1 | 판타지·코미디
+- 오버로드 (Overlord) | 애니 | 2015 | 연재/방영중 | MAL 7.9 | 판타지·이세계
+- Re:제로부터 시작하는 이세계 생활 (Re:Zero) | 애니 | 2016 | 연재/방영중 | MAL 8.3 | 판타지·이세계
+- 원펀맨 (One Punch Man) | 애니 | 2015 | 연재/방영중 | MAL 8.5 | 배틀·코미디
+- 원펀맨 (One Punch Man (원작 만화)) | 만화 | 2012 | 연재/방영중 | MAL 8.7 | 배틀·코미디
+- 모브사이코 100 (Mob Psycho 100) | 애니 | 2016 | 완결 | MAL 8.6 | 초능력·코미디
+- 모브사이코 100 (Mob Psycho 100 (원작 만화)) | 만화 | 2012 | 완결 | MAL 8.6 | 초능력·코미디
+- 도쿄 리벤저스 (Tokyo Revengers) | 애니 | 2021 | 완결 | MAL 7.7 | 드라마·타임슬립
+- 약속의 네버랜드 (Yakusoku no Neverland) | 애니 | 2019 | 완결 | MAL 8.6 | 스릴러·서바이벌
+- 약속의 네버랜드 (Yakusoku no Neverland (원작 만화)) | 만화 | 2020 | 완결 | MAL 8.3 | 스릴러·서바이벌
+- 마법소녀 마도카☆마기카 (Mahou Shoujo Madoka Magica) | 애니 | 2011 | 완결 | MAL 8.4 | 다크판타지
+- 청춘 돼지 선배는 바니걸 선배의 꿈을 꾸지 않는다 (Seishun Buta Yarou) | 애니 | 2018 | 연재/방영중 | MAL 8.2 | 로맨스·드라마
+- 목소리의 형태 (Koe no Katachi) | 애니 | 2016 | 완결 | MAL 8.9 | 드라마
+- 초속 5센티미터 (Byousoku 5 Centimeter) | 애니 | 2007 | 완결 | MAL 7.8 | 로맨스·드라마
+- 공각기동대 (Koukaku Kidoutai) | 애니 | 1995 | 완결 | MAL 8.3 | SF·사이버펑크
+- 아키라 (Akira) | 애니 | 1988 | 완결 | MAL 8.1 | SF·사이버펑크
+- 은혼 (Gintama) | 애니 | 2006 | 연재/방영중 | MAL 8.9 | 코미디·액션
+- 페어리테일 (Fairy Tail) | 애니 | 2009 | 완결 | MAL 7.6 | 판타지·모험
+- 블랙 클로버 (Black Clover) | 애니 | 2017 | 완결 | MAL 8.1 | 판타지·배틀
+- 나의 히어로 아카데미아 (Boku no Hero Academia) | 애니 | 2016 | 연재/방영중 | MAL 7.9 | 배틀·히어로
+- 소드 아트 온라인 (Sword Art Online) | 애니 | 2012 | 연재/방영중 | MAL 7.2 | 판타지·게임
+- 노라가미 (Noragami) | 애니 | 2014 | 완결 | MAL 7.9 | 초자연·액션
+- 죠죠의 기묘한 모험 (JoJo no Kimyou na Bouken) | 애니 | 2012 | 연재/방영중 | MAL 8.2 | 배틀·초자연
+- 죠죠의 기묘한 모험 (JoJo no Kimyou na Bouken (원작 만화)) | 만화 | 1987 | 연재/방영중 | MAL 8.6 | 배틀·초자연
+- 카구야 님은 고백받고 싶어 (Kaguya-sama wa Kokurasetai) | 애니 | 2019 | 완결 | MAL 8.6 | 로맨틱코미디
+- 5등분의 신부 (Gotoubun no Hanayome) | 애니 | 2019 | 완결 | MAL 7.6 | 로맨스·코미디
+- 바이올렛 에버가든 (Violet Evergarden) | 애니 | 2018 | 완결 | MAL 8.7 | 드라마
+- 4월은 너의 거짓말 (Shigatsu wa Kimi no Uso) | 애니 | 2014 | 완결 | MAL 8.6 | 드라마·음악
+- 오란고교 호스트부 (Ouran Koukou Host Club) | 애니 | 2006 | 완결 | MAL 8.1 | 로맨틱코미디
+- 나쓰메 우인장 (Natsume Yuujinchou) | 애니 | 2008 | 연재/방영중 | MAL 8.3 | 판타지·힐링
+- 마법사의 신부 (Mahoutsukai no Yome) | 애니 | 2017 | 완결 | MAL 7.9 | 판타지·로맨스
+- 던전에서 만남을 추구하면 안되는 걸까 (DanMachi) | 애니 | 2015 | 연재/방영중 | MAL 7.1 | 판타지·모험
+- 늑대와 향신료 (Ookami to Koushinryou) | 애니 | 2008 | 완결 | MAL 7.7 | 판타지·경제
+- 클라나드 (Clannad) | 애니 | 2007 | 완결 | MAL 8 | 드라마·로맨스
+- Angel Beats! (Angel Beats!) | 애니 | 2010 | 완결 | MAL 8.1 | 드라마·판타지
+- 슈타인즈 게이트 (Steins;Gate) | 애니 | 2011 | 완결 | MAL 9.07 | SF·스릴러
+- 베르세르크 (Berserk (원작 만화)) | 만화 | 1989 | 연재/방영중 | MAL 9.2 | 다크판타지
+- 도로헤도로 (Dorohedoro) | 애니 | 2020 | 완결 | MAL 8 | 다크판타지·호러
+- 사이버펑크: 엣지러너 (Cyberpunk: Edgerunners) | 애니 | 2022 | 완결 | MAL 8.6 | SF·사이버펑크
+- 쿠로코의 농구 (Kuroko no Basket) | 애니 | 2012 | 완결 | MAL 8.3 | 스포츠
+- 이누야샤 (InuYasha) | 애니 | 2000 | 완결 | MAL 7.9 | 판타지·모험
+- 란마 1/2 (Ranma 1/2) | 애니 | 1989 | 완결 | MAL 7.7 | 코미디·무술
+- 세일러문 (Bishoujo Senshi Sailor Moon) | 애니 | 1992 | 완결 | MAL 7.4 | 마법소녀
+- 카드캡터 사쿠라 (Cardcaptor Sakura) | 애니 | 1998 | 완결 | MAL 8.1 | 마법소녀
+- 은하영웅전설 (Ginga Eiyuu Densetsu) | 애니 | 1988 | 완결 | MAL 9.1 | SF·전쟁
+- 진격의 거인 (Shingeki no Kyojin (원작 만화)) | 만화 | 2021 | 완결 | MAL 8.8 | 미스터리·전쟁
+- 약사의 혼잣말 3기 (Kusuriya no Hitorigoto 3rd Season) | 애니 | 2026 | 최신·화제 | MAL 점수 링크에서 확인 | 미스터리·궁중극
+- 도쿄 리벤저스: 삼천전쟁편 (Tokyo Revengers: Santen Sensou-hen) | 애니 | 2026 | 최신·화제 | MAL 점수 링크에서 확인 | 드라마·액션
+- 푸른 상자 2기 (Ao no Hako 2nd Season) | 애니 | 2026 | 최신·화제 | MAL 점수 링크에서 확인 | 로맨스·스포츠
+- 사이버펑크: 엣지러너 2 (Cyberpunk: Edgerunners 2) | 애니 | 2026 | 최신·화제 | MAL 점수 링크에서 확인 | SF·사이버펑크
+- 도원암귀 2기 (Tougen Anki 2nd Season) | 애니 | 2026 | 최신·화제 | MAL 점수 링크에서 확인 | 액션·초자연
+- 드래곤볼 슈퍼: 비루스 (Dragon Ball Super: Beerus) | 애니 | 2026 | 최신·화제 | MAL 점수 링크에서 확인 | 액션·모험
+- 환상수호전 (Genso Suikoden) | 애니 | 2026 | 최신·화제 | MAL 점수 링크에서 확인 | 판타지
+- 스틸 볼 런: 죠죠의 기묘한 모험 (Steel Ball Run: JoJo no Kimyou na Bouken) | 애니 | 2026 | 최신·화제 | MAL 점수 링크에서 확인 | 모험·배틀
+- 뾰족모자의 아틀리에 (Tongari Boushi no Atelier) | 애니 | 2026 | 최신·화제 | MAL 점수 링크에서 확인 | 판타지·마법
+- 일본삼국 (Nippon Sangoku) | 애니 | 2026 | 최신·화제 | MAL 점수 링크에서 확인 | 전략·정치극
+- Re:제로부터 시작하는 이세계 생활 4기 (Re:Zero kara Hajimeru Isekai Seikatsu 4th Season) | 애니 | 2026 | 최신·화제 | MAL 점수 링크에서 확인 | 판타지·이세계
+- 무직전생 3기 (Mushoku Tensei 3rd Season) | 애니 | 2026 | 최신·화제 | MAL 점수 링크에서 확인 | 판타지·이세계
+- 도로헤도로 2기 (Dorohedoro Season 2) | 애니 | 2026 | 최신·화제 | MAL 점수 링크에서 확인 | 다크판타지·호러
+- Fate/strange Fake (Fate/strange Fake) | 애니 | 2026 | 최신·화제 | MAL 점수 링크에서 확인 | 판타지·액션
+- 장송의 프리렌 (원작 만화) (Sousou no Frieren) | 만화 | 2020 | 최신·화제 | MAL 점수 링크에서 확인 | 판타지·잔잔물
+- 뾰족모자의 아틀리에 (원작 만화) (Tongari Boushi no Atelier) | 만화 | 2016 | 최신·화제 | MAL 점수 링크에서 확인 | 판타지·마법
+- 괴수 8호 (Kaijuu 8-gou) | 만화 | 2020 | 최신·화제 | MAL 점수 링크에서 확인 | 액션·SF
+- 사카모토 데이즈 (Sakamoto Days) | 만화 | 2020 | 최신·화제 | MAL 점수 링크에서 확인 | 액션·코미디
+- 푸른 상자 (원작 만화) (Ao no Hako) | 만화 | 2021 | 최신·화제 | MAL 점수 링크에서 확인 | 로맨스·스포츠
+- 단다단 (원작 만화) (Dandadan) | 만화 | 2021 | 최신·화제 | MAL 점수 링크에서 확인 | 오컬트·코미디
